@@ -1,0 +1,16 @@
+
+
+@keyframes animacao-box{
+	from{background: red;}
+	to {background: yellow;}
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+    background-color: #fe6710!important;
+    border-color: #fe6710!important;
+    color: #fff;
+    animation-name: animacao-box;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-interation-count: 2;
+}
